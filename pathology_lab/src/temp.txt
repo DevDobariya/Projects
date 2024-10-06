@@ -1,0 +1,7 @@
+Check box:
+<div className = "form-check" >
+    <input className = "form-check-input" id="hi" type="checkbox" onClick ={ ( e ) => { changeReports( e , 10 , 100 ) } }/>
+    <label className = "form-check-label" htmlFor = "hi">
+        Default checkbox
+    </label>
+</div>

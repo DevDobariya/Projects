@@ -1,0 +1,62 @@
+[
+    {
+        "Product_ID" : 1,
+        "Product_Name" : "Dengue IGG/IGM",
+        "Product_Cost" : 2500,
+        "NoOfTests" : 10
+    },
+    {
+        "Product_ID" : 2,
+        "Product_Name" : "Dengue NS1",
+        "Product_Cost" : 3000,
+        "NoOfTests" : 10
+    },
+    {
+        "Product_ID" : 3,
+        "Product_Name" : "Malaria-P.F/ Pan",
+        "Product_Cost" : 4800,
+        "NoOfTests" : 40
+    },
+    {
+        "Product_ID" : 4,
+        "Product_Name" : "Malaria-P.F/ P.V Antigen",
+        "Product_Cost" : 4400,
+        "NoOfTests" : 40
+    },
+    {
+        "Product_ID" : 5,
+        "Product_Name" : "Chikunguniya- IgG/IgM",
+        "Product_Cost" : 2500,
+        "NoOfTests" : 10
+    },
+    {
+        "Product_ID" : 6,
+        "Product_Name" : "Iodine Testing Kit",
+        "Product_Cost" : 280,
+        "NoOfTests" : 100
+    },
+    {
+        "Product_ID" : 7,
+        "Product_Name" : "COVID Antigen",
+        "Product_Cost" : 5500,
+        "NoOfTests" : 25
+    },
+    {
+        "Product_ID" : 8,
+        "Product_Name" : "HIV S/P",
+        "Product_Cost" : 4000,
+        "NoOfTests" : 50
+    },
+    {
+        "Product_ID" : 9,
+        "Product_Name" : "HGSAG S/P",
+        "Product_Cost" : 2250,
+        "NoOfTests" : 50
+    },
+    {
+        "Product_ID" : 10,
+        "Product_Name" : "HCV",
+        "Product_Cost" : 4000,
+        "NoOfTests" : 50
+    }
+]

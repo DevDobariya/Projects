@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Test  </title>
+</head>
+<body style="background-color: black;">
+    <button style="font-size : 50px;" onclick="test()"> CLICK MEEEEEEEEEEEEE </button>
+    <script>
+        async function test(){
+            payload = [
+                {
+                    "Order_ID" : 2,
+                    "Product_ID": 10,
+                    "Amount" : 2,
+                    "Total_Cost" : 8000
+                },
+                {
+                    "Order_ID" : 1,
+                    "Product_ID": 2,
+                    "Amount" : 5,
+                    "Total_Cost" : 1500
+                }
+            ]
+            // console.log( payload.reduce( ( acc , obj ) => acc + obj.Total_Cost , 0 ) );
+            // temp = payload.sort( ( a,b ) => a.Order_ID - b.Order_ID );
+            // console.log(temp);
+            data = await JSON.stringify( payload );
+            // console.log( payload );
+            // console.log(data);
+            const options = { 
+                method : "POST",
+                body : data,
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            };
+            
+            // fetch( 'http://localhost:4522/orders' , options )
+            // .then( res => res.json() )
+            // .then( res => console.log(res));
+            
+            fetch( 'http://localhost:4522/orders/month/11' )
+            .then( res => res.json() )
+            .then( res => console.log( res ));
+        }
+    </script>
+</body>
+</html>
